@@ -1,4 +1,4 @@
-<img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/XDP/XDP~COURSE!~front-end-react/XDP~COURSE!~front-end-react.jpeg" width="100%" />
+<img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/XDP/XDP~COURSE!~front-end-react/XDP~COURSE!~front-end-react.jpeg" width="75%" />
 
 <h1>Front-End Web Development with React</h1>
 <h4>The Hong Kong University of Science and Technology</h4>
