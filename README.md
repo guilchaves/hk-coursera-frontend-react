@@ -21,3 +21,6 @@ In this module you will be introduced to uncontrolled and controlled forms and b
 <h3>Week 4 - More Redux and Client-Server Communication (12 hours)</h3>
 
 In this module you will explore Redux further including Redux action, combining reducers, and Redux thunk, client-server communication using Fetch and the REST API. You will get a brief introduction to animation in React. You will also learn about testing, building and deploying React applications.
+
+##
+__Taught by:__ [Jogesh K. Muppala](https://www.coursera.org/instructor/jmuppala)
