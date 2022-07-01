@@ -14,13 +14,13 @@ class Main extends Component {
     };
   }
 
-  onDishSelect(dish) {
-    this.setState({ selectedDish: dish });
+  onDishSelect(dishId) {
+    this.setState({ selectedDish: dishId });
   }
 
   render() {
     return (
-      <div className="App">
+      <div>
         <Navbar dark color="primary">
           <div className="container">
             <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>
