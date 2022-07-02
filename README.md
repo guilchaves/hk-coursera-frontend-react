@@ -10,17 +10,27 @@ This course explores Javascript based front-end application development, and in 
 <h2>Course</h2>
 
 <h3>Week 1 - Introduction to React (10 hours)</h3>
-In this module we get a quick introduction to front-end JavaScript frameworks and libraries, followed by an introduction to React. We will also learn about React components and JSX.
+- Introduction to React<br/>
+- React Components <br/>
 
 <h3>Week 2 - React Router and Single Page Applications (8 hours)</h3>
-In this week, you will learn about various component types. You will learn about React router and its use in designing single page applications. You will also learn about single page applications and use React Router to design single page applications.
+- React Component Types<br/>
+- React Router<br/>
+- Single Page Applications <br/>
 
 <h3>Week 3 - React Forms, Flow Architecture and Introduction to Redux (7 hours)</h3>
-In this module you will be introduced to uncontrolled and controlled forms and briefly examine form validation in React applications. You will get an overview of the Flux architecture and introduced to Redux as a way of realizing the flux architecture.
+- Controlled Forms<br/>
+- Uncontrolled Forms<br/>
+- Introduction to Redux<br/>
+- React Redux Form<br/>
 
 <h3>Week 4 - More Redux and Client-Server Communication (12 hours)</h3>
+- Redux Actions <br/>
+- Redux Thunk<br/>
+- Client-Server Communication<br/>
+- Fetch<br/>
+- React Animations<br/>
 
-In this module you will explore Redux further including Redux action, combining reducers, and Redux thunk, client-server communication using Fetch and the REST API. You will get a brief introduction to animation in React. You will also learn about testing, building and deploying React applications.
 
 ##
 __Taught by:__ [Jogesh K. Muppala](https://www.coursera.org/instructor/jmuppala)
