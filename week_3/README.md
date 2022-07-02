@@ -1,9 +1,10 @@
-### React Router and Single Page applications
+### React Forms, Flow Architecture and Introduction to Redux
 
-In this week, you will learn about various component types. You will learn about React router and its use in designing single page applications. You will also learn about single page applications and use React Router to design single page applications.
+In this module you will be introduced to uncontrolled and controlled forms and briefly examine form validation in React applications. You will get an overview of the Flux architecture and introduced to Redux as a way of realizing the flux architecture
 
 <h4>Learning Objectives</h4>
 
-- Develop a React router based navigation to various views in your React application <br/>
-- Develop a single page application using the React router support <br/>
-- Give examples of various types of React components<br/>
+- Create uncontrolled React forms <br/>
+- Createcontrolled forms and perform form validation <br/>
+- Discuss the features of the Flux architecture<br/>
+- Explain the Redux approach to implementing a variant of the Flow architecture<br/>
