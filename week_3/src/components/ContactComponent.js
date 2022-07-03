@@ -157,6 +157,7 @@ class Contact extends Component {
                   />
                 </Col>
               </Row>
+
               <Row className="form-group">
                 <Label htmlFor="telnum" md={2}>
                   Contact Tel.
@@ -166,7 +167,7 @@ class Contact extends Component {
                     model=".telnum"
                     id="telnum"
                     name="telnum"
-                    placeholder="Tel. number"
+                    placeholder="Tel. Number"
                     className="form-control"
                     validators={{
                       required,
@@ -177,13 +178,13 @@ class Contact extends Component {
                   />
                   <Errors
                     className="text-danger"
-                    model=".lastname"
+                    model=".telnum"
                     show="touched"
                     messages={{
                       required: 'Required',
-                      minLength: 'Please enter at least 3 numbers',
-                      maxLength: 'Please enter at most 15 numbers',
-                      isNumber: 'Pleaser enter only numbers',
+                      minLength: 'Must be greater than 2 numbers',
+                      maxLength: 'Must be 15 numbers or less',
+                      isNumber: 'Must be a number',
                     }}
                   />
                 </Col>
