@@ -11,7 +11,11 @@ import {
   Modal,
   ModalHeader,
   ModalBody,
+  Row,
+  Label,
+  Col,
 } from 'reactstrap';
+import { Control, LocalForm, Errors } from 'react-redux-form';
 import { Link } from 'react-router-dom';
 
 function RenderDish({ dish }) {
@@ -74,6 +78,12 @@ class CommentForm extends Component {
     this.toggleModal();
   }
 
+  handleSubmit(values) {
+    console.log('Current State is: ' + JSON.stringify(values));
+    alert('Current State is: ' + JSON.stringify(values));
+    this.toggleModal();
+  }
+
   render() {
     return (
       <>
@@ -82,8 +92,63 @@ class CommentForm extends Component {
         </Button>
         <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
           <ModalHeader toggle={this.toggleModal}>Submit Comment</ModalHeader>
-          <ModalBody>Hello</ModalBody>
-          Lo
+          <ModalBody>
+            <LocalForm onSubmit={values => this.handleSubmit(values)}>
+              <Row className="form-group">
+                <Label htmlFor="rating" md={12}>
+                  Rating
+                </Label>
+                <Col>
+                  <Control.select
+                    model=".rating"
+                    name="rating"
+                    className="form-control"
+                  >
+                    <option value={1}>1</option>
+                    <option value={2}>2</option>
+                    <option value={3}>3</option>
+                    <option value={4}>4</option>
+                    <option value={5}>5</option>
+                  </Control.select>
+                </Col>
+              </Row>
+              <Row className="form-group">
+                <Label htmlFor="author" md={12}>
+                  Your Name
+                </Label>
+                <Col>
+                  <Control.text
+                    model=".author"
+                    id="author"
+                    name="author"
+                    placeholder="Your Name"
+                    className="form-control"
+                  ></Control.text>
+                </Col>
+              </Row>
+              <Row className="from-group">
+                <Label htmlFor="comment" md={12}>
+                  Comment
+                </Label>
+                <Col>
+                  <Control.textarea
+                    model=".comment"
+                    id="comment"
+                    name="comment"
+                    rows="6"
+                    className="form-control"
+                  ></Control.textarea>
+                </Col>
+              </Row>
+              <Row className="form-group mt-4">
+                <Col md={{ size: 10 }}>
+                  <Button type="submit" color="primary">
+                    Submit
+                  </Button>
+                </Col>
+              </Row>
+            </LocalForm>
+          </ModalBody>
         </Modal>
       </>
     );
