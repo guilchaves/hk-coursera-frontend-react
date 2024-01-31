@@ -34,3 +34,4 @@ This course explores Javascript based front-end application development, and in 
 
 ##
 __Taught by:__ [Jogesh K. Muppala](https://www.coursera.org/instructor/jmuppala)
+__Course Certificate:__ [Certificate](https://www.coursera.org/account/accomplishments/verify/25X9CB58QC3X) 
